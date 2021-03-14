@@ -1,0 +1,89 @@
+body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background: #170401;
+	color: #ff9dfd;
+}
+
+.새로고침 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 20px;
+	background-color: aqua;
+	border: 1.5px solid #000000;
+	color: #000000;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.2 all;
+}
+
+button {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	background-color: #5d5def;
+	border: 1.5px solid #000000;
+	color: #000000;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.2 all;
+}
+
+button:hover {
+	background-color: #00BFFF;
+}
+
+section {
+	padding: 0;
+	margin: 30px 0 60px 0;
+	color: #fff;
+}
+
+.image-wrap img {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.desc {
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 20px;
+	color: #fff;
+}
+
+span {
+	font-weight: bold;
+}
+
+span.red {
+	color: red;
+}
+
+.middle-text {
+	margin: 50px 0 30px;
+	font-size: 30px;
+	position: relative;
+}
+
+.middle-text span {
+	margin: 20px 0;
+	padding: 0 20px;
+	display: inline-block;
+	background: #170401;
+	position: relative;
+	z-index: 2
+}
+
+.middle-text:after {
+	content: '';
+	width: 50%;
+	height: 1px;
+	background: #7b5a55;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 1
+}
